@@ -1,4 +1,4 @@
-# Dessiner un feu tricolore <img width='30' src='https://github.com/FabriqueDWWM/HTML-CSS/blob/master/poussin1.png'>
+# Dessiner un feu tricolore
 
 En n'utilisant que HTML et CSS (sans images), obtenez le dessin suivant :
 
