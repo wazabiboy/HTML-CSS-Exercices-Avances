@@ -4,7 +4,7 @@ En n'utilisant que HTML et CSS (sans images), obtenez le dessin suivant :
 
 ![alt text](https://github.com/FabriqueDWWM/HTML-CSS-Exercices-Avances/blob/main/Feu%20!/Capture1.PNG)
 
-# Allumer le feu au survol <img width='30' src='https://github.com/FabriqueDWWM/HTML-CSS-Exercices-Avances/blob/master/poussin1.png'>
+# Allumer le feu au survol
 
 Faites en sorte que chaque couleur s'allume au survol (éteint sinon).
 
