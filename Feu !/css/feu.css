@@ -1,0 +1,74 @@
+body{
+
+    background-color: black;
+    margin: 0;
+
+}
+
+.feu{
+background-color: rgb(54, 54, 54);
+position: absolute;
+width: 10%;
+height: 40%;
+margin: 35vh;
+margin-left: 80vh;
+box-shadow: 3px 0 0 0 rgb(245, 245, 245);
+}
+
+#rouge{
+    border: 1px solid red;
+    background-color: rgba(235, 64, 52,0.3);
+border-radius: 50%;
+width: 50%;
+height: 27%;
+border-radius: 50%;
+
+margin-left: 25%;
+margin-top: 7%;
+
+}
+#jaune{
+    border-radius: 50%;
+    width: 50%;
+    height: 27%;
+    background-color: rgba(217, 214, 28, 0.3);
+    margin-left: 25%;
+    margin-top: 10%;
+    animation-name: feu;
+animation-duration: 7s;
+animation-timing-function: ease-in-out;
+animation-iteration-count: infinite;    
+animation-play-state: running;
+    
+    }
+
+    #vert{
+        border-radius: 50%;
+        width: 50%;
+        height: 27%;
+        background-color: rgba(27, 117, 0, 0.3);
+        margin-left: 25%;
+        margin-top: 10%;
+
+        
+        }
+
+        .div {position: absolute;
+            border-radius: 50%;
+        width: 5%;
+        height: 10%;
+        margin: 90vh;
+            background: red;
+            position: absolute;
+            animation: myfirst 5s 2;
+            animation-direction: alternate;
+          }
+     
+        @keyframes myfirst {
+            0%   {background: red; top: 100px;}
+            25%  {opacity: 0; red; top: 0px;}
+            50%  {background: yellow; top: 70px;}
+            75% {background: red;  top: 70px;}
+          100%  {background: green;  top: 70px;}
+            
+        }
