@@ -1,0 +1,29 @@
+body{
+    width: 100%;
+    height: 100%;
+    
+}
+
+
+video {
+  background-attachment:local;
+    margin-top: 0;
+    left: 0%;
+    z-index: -500%;
+    min-width: 100%;
+    min-height: 115%;
+    width: 20%;
+    height: 20%;
+  
+      
+    }
+
+section{margin-left: 140vh;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 20%;
+ margin-top: 209px;  
+ font-weight: bold;
+ font-family: fantasy; 
+}
