@@ -72,11 +72,3 @@ box-shadow:
             animation-direction: alternate;
           }
      
-        @keyframes myfirst {
-            0%   {background: red; top: 100px;}
-            25%  {opacity: 0; red; top: 0px;}
-            50%  {background: yellow; top: 70px;}
-            75% {background: red;  top: 70px;}
-          100%  {background: green;  top: 70px;}
-            
-        }
